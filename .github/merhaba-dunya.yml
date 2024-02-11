@@ -1,0 +1,12 @@
+name: Merhaba dünya
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+jobs:
+  # This workflow contains a single job called "merhaba"
+  merhaba:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    steps:
+      - name: merhaba dünya çalıştır
+        run: echo Merhaba, dünya!
