@@ -9,4 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: merhaba dünya çalıştır
-        run: echo Merhaba, dünya!
+        run: echo Merhaba, dünya! Ubuntu
+
+    runs-on: windows-latest
+    steps:
+      - name: merhaba dünya çalıştır
+        run: echo Merhaba, dünya! Windows
