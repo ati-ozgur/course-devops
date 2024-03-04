@@ -6,23 +6,63 @@ planned-videos.txt
 - jobs
 - steps
 
-
-- expressions
-
-
-- using actions in workflow
- - checkout
- - publish web site (quarto)
- - configuring actions
-
-- adding more job steps
-- how to run jobs parallel
-- how to run jobs sequentials, depends
-
-- multiple triggers
+## multiple triggers
  - on
  - schedule
  - 
 
+
+## using actions in workflow
+ - checkout
+ - publish web site (quarto)
+ - configuring actions
+
+## adding more job steps
+- how to run jobs parallel
+- how to run jobs sequentials, depends
+
+- expressions
+
+
 - context objects
+
+## Environmental variables and secrets
+
+	- github provided/default environmental variables
+	- adding environmental variables
+	- using environmental variables
+	- adding secrets
+
+
+
+##  caching dependencies
+ - caching npm
+ - caching nuget
+ - caching maven
+ - caching gradle
+
+
+## security of github actions
+
+- script injection
+- reducing attack surface, giving minimum action permissions
+
+## Reusable workflows and custom actions
+
+### Reusable Workflows
+	- inputs
+	- output
+	- secrets
+
+### custom actions
+
+	- different type of custom actions
+	- composite custom actions
+		- inputs
+		- output
+
+	- javascript custom actions
+		- inputs
+		- output
+	- docker custom actions
 
