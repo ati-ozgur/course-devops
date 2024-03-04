@@ -66,8 +66,13 @@ https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs
 
 ## artifacts 
 
-	- uploading github sites
 	- uploading/downloading to github
+		- code test reports
+		- code coverage reports
+		- uploading to https://about.codecov.io/
+	- uploading github sites
+		- code test reports
+		- code coverage reports
 	- uploading to npm
 	- uploading maven central
 	- uploading pip
@@ -93,6 +98,10 @@ https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs
 	- matrix usage
 	- including and excluding from matrix values
 
+
+## other simple things
+
+	- Adding a Status Badge in README.md
 
 
 ## Reusable workflows and custom actions
