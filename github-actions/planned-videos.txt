@@ -1,0 +1,28 @@
+planned-videos.txt
+
+- github actions merhaba dünya
+
+- workflows
+- jobs
+- steps
+
+
+- expressions
+
+
+- using actions in workflow
+ - checkout
+ - publish web site (quarto)
+ - configuring actions
+
+- adding more job steps
+- how to run jobs parallel
+- how to run jobs sequentials, depends
+
+- multiple triggers
+ - on
+ - schedule
+ - 
+
+- context objects
+
