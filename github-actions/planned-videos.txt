@@ -5,11 +5,20 @@ planned-videos.txt
 - workflows
 - jobs
 - steps
+- runners
+	- default programs installed on runners
 
 ## multiple triggers
  - on
  - schedule
- - 
+
+https://docs.github.com/en/actions/using-workflows/events-that-trigger-workflows
+
+ - filters on branch/tags (test,staging,development....)
+
+
+
+ https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#filter-pattern-cheat-sheet
 
 
 ## using actions in workflow
@@ -22,9 +31,19 @@ planned-videos.txt
 - how to run jobs sequentials, depends
 
 - expressions
-
+https://docs.github.com/en/actions/learn-github-actions/expressions
 
 - context objects
+https://docs.github.com/en/actions/learn-github-actions/contexts
+
+- variables
+https://docs.github.com/en/actions/learn-github-actions/variables
+
+
+
+## Job Outputs
+https://docs.github.com/en/actions/using-jobs/defining-outputs-for-jobs
+
 
 ## Environmental variables and secrets
 
@@ -36,16 +55,45 @@ planned-videos.txt
 
 
 ##  caching dependencies
+ - why we may need cache( speed and money)
  - caching npm
  - caching nuget
  - caching maven
  - caching gradle
+ - caching pip
+ - invalidation of cache
+
+
+## artifacts 
+
+	- uploading github sites
+	- uploading/downloading to github
+	- uploading to npm
+	- uploading maven central
+	- uploading pip
+	- uploading nuget
+
+## controlling workflow and job execution
+ - if
+	conditions to control job execution
+	https://docs.github.com/en/actions/using-jobs/using-conditions-to-control-job-execution
+
+## running jobs in docker containers
+
+- difference between containers and runners
+- service containers
 
 
 ## security of github actions
 
 - script injection
 - reducing attack surface, giving minimum action permissions
+
+## matrix strategies
+	- matrix usage
+	- including and excluding from matrix values
+
+
 
 ## Reusable workflows and custom actions
 
