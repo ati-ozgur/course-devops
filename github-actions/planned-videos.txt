@@ -1,5 +1,18 @@
 planned-videos.txt
 
+
+- hello world github actions DONE
+- what is YAML
+- YAML to json extension
+- format YAML in vscode and sublime
+
+- actions marketplace
+- checkout action
+- example another action
+
+
+
+
 - github actions merhaba dünya
 
 - workflows
